@@ -186,6 +186,22 @@ android {
 
         }
     }
+
+    flavorDimensions "default"
+    productFlavors {
+        prod {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId 'com.rn_base'
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.rn_base"
+        }
+        staging {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId 'com.rn_base.staging'
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.rn_base"
+        }
+    }
 }
 
 dependencies {
