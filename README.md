@@ -14,7 +14,9 @@ git clone https://github.com/parth-koshta/react_native_base.git
 
 3. Install dependencies 
 ```
-yarn install
+$ yarn install
+$ cd ios
+$ pod install
 ```
 4. Running the app  
 **Instructions for running the app is a part of the article**
