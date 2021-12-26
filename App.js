@@ -1,17 +1,17 @@
-import React from 'react'
-import { View, Text } from 'react-native'
-import Config from "react-native-config";
+import React from 'react';
+import {Provider} from 'react-redux';
+import store, {persistor} from './src/redux/store';
+import AppWrapper from './src/components/AppWrapper';
+import {PersistGate} from 'redux-persist/integration/react';
 
 const App = () => {
-  const isProduction = Config.PRODUCTION === 'true';
   return (
-    <View style={{ flex: 1, width: '100%', justifyContent: 'center', alignItems: 'center' }}>
-      <Text style={{ fontSize: 22, fontWeight: '500' }}>React Native Base</Text>
-      <Text style={{ fontSize: 18, fontWeight: '500', marginTop: 20 }}>
-        Running {!!isProduction ? 'Production' : 'Staging'} flavour
-      </Text>
-    </View>
-  )
-}
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <AppWrapper />
+      </PersistGate>
+    </Provider>
+  );
+};
 
-export default App
+export default App;
