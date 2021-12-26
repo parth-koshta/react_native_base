@@ -1,6 +1,8 @@
 # react_native_base
-### This repo contains the code for my Medium article 
-[Configuring Production & Staging Environment for React Native](https://parthkoshta.medium.com/configuring-production-staging-environments-for-react-native-91e03fffbe09)
+### This repo contains the code for my Medium articles 
+[Configuring Production & Staging Environment for React Native](https://parthkoshta.medium.com/configuring-production-staging-environments-for-react-native-91e03fffbe09)  
+[React Native — redux-toolkit, redux-persist & redux-logger setup
+](https://parthkoshta.medium.com/react-native-redux-toolkit-redux-persist-redux-logger-setup-36f7cfaeae55)
 
 
 # Setup
