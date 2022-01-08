@@ -15,7 +15,7 @@ const Login = () => {
         width: '100%',
         justifyContent: 'space-around',
         alignItems: 'center',
-        backgroundColor: '#FFEACA',
+        backgroundColor: '#fff5e6',
       }}>
       <View>
         <Text
@@ -50,7 +50,7 @@ const Login = () => {
           alignItems: 'center',
         }}
         onPress={onLogin}>
-        <Text style={{fontSize: 22, fontWeight: '500', color: '#FFEACA'}}>
+        <Text style={{fontSize: 22, fontWeight: '500', color: '#fff5e6'}}>
           Click to Login
         </Text>
       </TouchableOpacity>
