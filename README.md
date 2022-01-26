@@ -8,7 +8,7 @@
 
 # Setup
 
-1. To setup react-native environment on your system follow this link - [Setting up the development environment](https://reactnative.dev/docs/environment-setup).
+1. To setup react-native environment on your system follow this link – [Setting up the development environment](https://reactnative.dev/docs/environment-setup).
 
 2. Clone the repository.
 ```
@@ -22,5 +22,5 @@ $ cd ios
 $ pod install
 ```
 4. Running the app  
-**Instructions for running the app is a part of the article**
+**Instructions for running the app is a part of the article** – [Configuring Production & Staging Environment for React Native](https://parthkoshta.medium.com/configuring-production-staging-environments-for-react-native-91e03fffbe09)  
 <br />
