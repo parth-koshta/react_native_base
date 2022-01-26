@@ -2,7 +2,8 @@
 ### This repo contains the code for my Medium articles 
 [Configuring Production & Staging Environment for React Native](https://parthkoshta.medium.com/configuring-production-staging-environments-for-react-native-91e03fffbe09)  
 [React Native — redux-toolkit, redux-persist & redux-logger setup
-](https://parthkoshta.medium.com/react-native-redux-toolkit-redux-persist-redux-logger-setup-36f7cfaeae55)
+](https://parthkoshta.medium.com/react-native-redux-toolkit-redux-persist-redux-logger-setup-36f7cfaeae55)  
+[Adding light/dark mode splash screen in React Native](https://parthkoshta.medium.com/adding-light-dark-mode-splash-screen-in-react-native-60601489ab6f)
 
 
 # Setup
@@ -23,7 +24,3 @@ $ pod install
 4. Running the app  
 **Instructions for running the app is a part of the article**
 <br />
-
-## Relevant docs
-react-native-config - https://github.com/luggit/react-native-config  
-react-native-config docs for setup in different environments - https://github.com/luggit/react-native-config#different-environments

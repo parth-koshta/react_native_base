@@ -33,7 +33,7 @@ const Counter = () => {
         width: '100%',
         justifyContent: 'space-around',
         alignItems: 'center',
-        backgroundColor: '#FFEACA',
+        backgroundColor: '#fff5e6',
       }}>
       <View>
         <Text
@@ -64,7 +64,7 @@ const Counter = () => {
               width: 40,
             }}
             onPress={onDecrement}>
-            <Text style={{fontSize: 30, color: '#FFEACA'}}>–</Text>
+            <Text style={{fontSize: 30, color: '#fff5e6'}}>–</Text>
           </TouchableOpacity>
           <View style={{justifyContent: 'center', alignItems: 'center'}}>
             <Text style={{fontSize: 24, color: '#835151', fontWeight: 'bold'}}>
@@ -79,7 +79,7 @@ const Counter = () => {
               width: 40,
             }}
             onPress={onIncrement}>
-            <Text style={{fontSize: 30, color: '#FFEACA'}}>+</Text>
+            <Text style={{fontSize: 30, color: '#fff5e6'}}>+</Text>
           </TouchableOpacity>
         </View>
       </View>
